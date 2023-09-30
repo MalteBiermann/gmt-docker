@@ -1,0 +1,13 @@
+{
+    "name": "gmt-env",
+    "extensions": [
+        "ms-python.python"
+    ],
+    "dockerFile": "Dockerfile",
+    // "mounts": [
+    //     "source=${localWorkspaceFolder}/app,target=/app,type=bind,consistency=cached"
+    // ],
+    //"workspaceMount": "source=${localWorkspaceFolder}/tex,target=/tex,type=bind,consistency=cached",
+    //"workspaceFolder": "/tex",
+    "runArgs": ["--name", "gmt_devcontainer"]
+}
